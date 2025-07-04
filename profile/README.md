@@ -13,7 +13,6 @@ A **repository** (or "repo") is like a folder for your project. It contains all 
 ## 2. Prerequisites
 
 - Create a free [GitHub account](https://github.com/join) if you don't already have one.
-- Optional: Install [Git](https://git-scm.com/) on your computer if you want to use the command line. (You can also upload files via the website.)
 
 ---
 
@@ -36,44 +35,15 @@ A **repository** (or "repo") is like a folder for your project. It contains all 
 
 ---
 
-## 5. Uploading Files Using Git (Command Line)
-
-1. **Clone** the repository to your computer:
-   ```sh
-   git clone https://github.com/your-username/your-repo.git
-   ```
-2. **Navigate** to the repository folder:
-   ```sh
-   cd your-repo
-   ```
-3. **Add** your files:
-   ```sh
-   cp /path/to/yourfile.txt .
-   ```
-4. **Stage** the files:
-   ```sh
-   git add yourfile.txt
-   ```
-5. **Commit** your changes:
-   ```sh
-   git commit -m "Add yourfile.txt"
-   ```
-6. **Push** your changes to GitHub:
-   ```sh
-   git push
-   ```
-
----
-
-## 6. Tips
+## 5. Tips
 
 - You can upload multiple files at once.
 - For large files, you might need [Git Large File Storage (LFS)](https://git-lfs.github.com/).
-- Make sure your files do not contain sensitive information before uploading.
+**- Make sure your files do not contain sensitive information before uploading.**
 
 ---
 
-## 7. Getting Help
+## 6. Getting Help
 
 - [GitHub Docs: Uploading files](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
 - [GitHub Guides](https://guides.github.com/)
